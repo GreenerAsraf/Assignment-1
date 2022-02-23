@@ -8,6 +8,15 @@ h1{
     color:orange;
 }
 
+h1{
+    border-left: 5px solid;
+    border-image: linear-gradient(blue, tomato);
+    border-image-slice: 1;
+    margin-left: 5px;
+    padding-left: 10px;
+
+}
+
 .full-width{
     display: flex;
     margin-top: 10px;
@@ -34,9 +43,65 @@ h1{
     font-size: 40px;
 }
 
+.mission-item{
+    width: 30%;
+    margin: 10px;
+    padding-left: 10px;
+    text-align: center;
+    box-shadow: 10px 10px 30px gray;
+}
+.mission-item img{
+    width: 60%;
+    text-align: center;
+}
+#mision-bg{
+    background-color: burlywood;
+}
+#vision-bg{
+    background-color: gray;
+}
+#goals-bg{
+    background-color: #f2f2f2;
+}
+
 footer{
     background-color: black;
     text-align: center;
     color: white;
     padding: 30px 10px;
+}
+
+
+/* extra part css */
+
+/* * {box-sizing: border-box;} */
+
+input[type=text], select, textarea {
+  width: 70%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
 }

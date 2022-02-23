@@ -13,8 +13,8 @@
 <body>
   <section class="full-width">
     <div class="half-width" >
-        <h1>Stay Focused on</h1>
-        <h1> <span class="orange-color"> Mission 2022</span> </h1>
+      <h1>Stay Focused on <br>
+         <span class="orange-color"> Mission 2022</span> </h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat voluptatum rem ab labore alias libero sit? Unde iure deserunt tenetur eveniet adipisci consectetur, nihil reiciendis ut similique nisi exercitationem optio.</p>
         <a class="button" href="www.facebook.com" target="_blank" rel="noopener noreferrer">Make Appointment</a>
         <p>Scrol down to know more about us</p>
@@ -27,21 +27,21 @@
   <section>
       <h3 class="mission-2022" >My Mission in <span class="orange-color">2022</span></h3>
       <div class="full-width">
-          <div class="half-width">
+          <div id="mision-bg" class="half-width mission-item">
               <img src="./images/illustrators/illustrator-1.png" alt="">
             <h3>Mission</h3> 
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum saepe similique accusantium, ad iste hic, tempora perspiciatis consequuntur nobis voluptatem cupiditate, officiis mollitia? Omnis unde tempore consequuntur, enim consectetur accusamus?
             </p>
           </div  >
-          <div class="half-width">
+          <div id="vision-bg"class="half-width mission-item">
               <img src="./images/illustrators/illustrator-2.png" alt="">
             <h3>Vision</h3>
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum saepe similique accusantium, ad iste hic, tempora perspiciatis consequuntur nobis voluptatem cupiditate, officiis mollitia? Omnis unde tempore consequuntur, enim consectetur accusamus?
             </p>
           </div>
-          <div class="half-width">
+          <div id="goals-bg" class="half-width mission-item">
               <img src="./images/illustrators/illustrator-3.png" alt="">
             <h3>Goals</h3> 
             <p>
@@ -74,6 +74,34 @@
           <img src="./images/pictures/project.png" alt="">
       </div>
   </section>
+
+                  <!-- ................extra section......................... -->
+
+                  <h3>Contact Form</h3>
+
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+        <option value="Bangladesh">Bangladesh</option>
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
 
   <footer>
       <h3>Mission <span class="orange-color">2022</span></h3>
